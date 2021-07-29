@@ -1,7 +1,36 @@
 <!DOCTYPE html>
-
-
-<form action="/form/submit" method="GET">
+<html>
+ <head>
+  <title>Goohgel</title>
+  <style>
+      body {
+          background-color: steelblue;
+      }
+      form {
+         width: 300px;
+         margin: auto;
+         margin-top: 250px; 
+      }
+      input {
+          padding: 4px 10px;
+          border: 0;
+          font-size: 15px;
+      }
+      .search {
+          width: 75%;
+      }
+      .submit {
+          width: 70px;
+          background-color: purple;
+          color: #ffffff;
+      }
+  </style>
+ </head>
+ <body>
+  <form action="/form/submit" method="GET">
     <input type="text" name="text" class="search" placeholder="Search something">
     <input type="submit" name="submit" class="submit" value="Search">
-</form>
+  </form>
+ </body>
+
+</html>
